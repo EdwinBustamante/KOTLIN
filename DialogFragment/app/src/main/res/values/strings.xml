@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DialogFragment</string>
+    <string name="dialog">DIALOG FRAGMENT</string>
+    <string name="appbar_scrolling_view_behavior">FULL SCREN DIALOG</string>
+</resources>
