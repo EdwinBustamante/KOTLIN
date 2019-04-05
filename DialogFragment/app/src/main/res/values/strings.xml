@@ -2,4 +2,6 @@
     <string name="app_name">DialogFragment</string>
     <string name="dialog">DIALOG FRAGMENT</string>
     <string name="appbar_scrolling_view_behavior">FULL SCREN DIALOG</string>
+    <string name="landscape">Button Landscape</string>
+    <string name="force">BUTTON LANDSCAPE FORCE ACTIVITY</string>
 </resources>

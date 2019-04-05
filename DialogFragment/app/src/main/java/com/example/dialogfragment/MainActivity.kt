@@ -17,6 +17,26 @@ class MainActivity : AppCompatActivity() {
         btnDialog.setOnClickListener {
             showDialog()
         }
+        val btnDialogLandscape = findViewById<Button>(R.id.buttonLandscape)
+        btnDialogLandscape.setOnClickListener {
+            showDialogL()
+        }
+        val btnDialogLandscapeForce = findViewById<Button>(R.id.buttonLanscapeForce)
+        btnDialogLandscapeForce.setOnClickListener {
+            showDialogLF()
+        }
+    }
+
+    private fun showDialogLF() {
+        val dialogo: DialogoLandscapeForce = DialogoLandscapeForce()
+        var f = supportFragmentManager.beginTransaction()
+        dialogo.show(f, "DIALOGLANDSCAPEFORCE")
+    }
+
+    private fun showDialogL() {
+        val dialogo: DialogoLandscape = DialogoLandscape()
+        var f = supportFragmentManager.beginTransaction()
+        dialogo.show(f, "DIALOGLANDSCAPE")
     }
 
     private fun showDialog() {
